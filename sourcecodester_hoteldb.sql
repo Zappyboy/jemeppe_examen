@@ -7,9 +7,12 @@
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 5.6.39
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO"; 
+-- behoudt van values als een andere versie van mysql wordt gebruikt --
+SET AUTOCOMMIT = 0; 
+-- statement is voltooid, methode commit automatisch wanneer de statement wordt aangeroepen
 START TRANSACTION;
+-- een punt waarop de gegevens door een verbinding wordt verwezen
 SET time_zone = "+00:00";
 
 
